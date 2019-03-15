@@ -1,0 +1,22 @@
+,0
+mean_fit_time,0.31338086128234866
+std_fit_time,0.031158217196757612
+mean_score_time,0.057581424713134766
+std_score_time,0.0029856268047692455
+param_var_smoothing,0.01
+params,{'var_smoothing': 0.01}
+split0_test_score,0.5713023307190986
+split1_test_score,0.5718073353954927
+split2_test_score,0.5692664604507292
+split3_test_score,0.5730858468677494
+split4_test_score,0.5710971163407358
+mean_test_score,0.5713117832917209
+std_test_score,0.001234682620862826
+rank_test_score,1
+split0_train_score,0.5707341324642324
+split1_train_score,0.5712431297815339
+split2_train_score,0.5737564559339354
+split3_train_score,0.5717244807777286
+split4_train_score,0.5703159522757402
+mean_train_score,0.571554830246634
+std_train_score,0.0011984538060713608
