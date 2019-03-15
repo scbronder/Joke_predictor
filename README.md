@@ -17,4 +17,5 @@ Analysis of the jokes revealed several trends that needed to be addressed. First
 
 Creating dictionaries that contained our stemmed/lemmed words and their word counts we used a count vecotrization to check that our word frequency intuitively made sense
 
-![alt text]()
+![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%201.52.37%20PM.png)
+![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%201.53.20%20PM.png)
