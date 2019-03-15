@@ -37,3 +37,11 @@ Models that we ran included
 - XGBoost
 
 The most successful of our models was the Random Forest model with parameters as follows: number of estimators: 300, max features: 2, min split: 2, stemming in English, and performing PCA down to 500 features. 
+
+This model predicted with a 64% accuracey which may not seem all that impressive until we take a look at our feature space after performing PCA down to 3 features 
+![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.16.24%20PM.png)
+
+And looking at our PCA analysis curve we can see that this is a complex question to ask
+![alt text]()https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.17.33%20PM.png
+
+These results are not surprising. As has already been mentioned trying to define humor is difficult and in turn predicting it is no different. There are certainly steps that we can implemnt to continue to refine this such as implement bigrams and further n-grams to imporve predction accuracey. This was an ambition project from the start but was great practice using NLP and NLTK to manipulate text data, vectorize it, and run it through statistical models.
