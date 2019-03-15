@@ -27,3 +27,13 @@ Following, we performed TF-IDF (term frequency-inverse document frequency). This
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.02.48%20PM.png)
 
 # Models and Results
+At this point the next step was to run several different models and check the corresponding accuracey scores to determine which was the best at predicting funny jokes. Our TF-IDF results were run through a GridSearch to fit the data. We could then run our models, altering their respective parameters with each successive run to try and optimize our results.
+
+Models that we ran included
+- Multinomial Naive Bayes
+- KNN
+- Random Forest
+- SVM
+- XGBoost
+
+The most successful of our models was the Random Forest model with parameters as follows: number of estimators: 300, max features: 2, min split: 2, stemming in English, and performing PCA down to 500 features. 
