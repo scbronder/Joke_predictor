@@ -26,6 +26,7 @@ Then performed some manual checks of common words:
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%201.53.20%20PM.png)
 
 Following, we performed TF-IDF (term frequency-inverse document frequency). This is based on the idea that rare words contain more information about the content of a document than words that are used many times throughout all the documents. For instance, if we treated every article in a newspaper as a separate document, looking at the amount of times the word "he" or "she" is used probably doesn't tell us much about what that given article is about--however, the amount of times "touchdown" is used can provide good signal that the article is probably about sports. To give you an idea of what this looked like here are the top results from our TF-IDF as per our joke set:
+
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.02.48%20PM.png)
 
 # Models and Results
@@ -41,9 +42,11 @@ Models that we ran included
 The most successful of our models was the Random Forest model with parameters as follows: number of estimators: 300, max features: 2, min split: 2, stemming in English, and performing PCA down to 500 features. 
 
 This model predicted with a 64% accuracey which may not seem all that impressive until we take a look at our feature space after performing PCA down to 3 features 
+
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.16.24%20PM.png)
 
 And looking at our PCA analysis curve we can see that this is a complex question to ask
+
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.17.33%20PM.png)
 
 These results are not surprising. As has already been mentioned trying to define humor is difficult and in turn predicting it is no different. There are certainly steps that we can implemnt to continue to refine this such as implement bigrams and further n-grams to imporve predction accuracey. This was an ambition project from the start but was great practice using NLP and NLTK to manipulate text data, vectorize it, and run it through statistical models.
