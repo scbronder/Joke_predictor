@@ -42,6 +42,6 @@ This model predicted with a 64% accuracey which may not seem all that impressive
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.16.24%20PM.png)
 
 And looking at our PCA analysis curve we can see that this is a complex question to ask
-![alt text]()https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.17.33%20PM.png
+![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%202.17.33%20PM.png)
 
 These results are not surprising. As has already been mentioned trying to define humor is difficult and in turn predicting it is no different. There are certainly steps that we can implemnt to continue to refine this such as implement bigrams and further n-grams to imporve predction accuracey. This was an ambition project from the start but was great practice using NLP and NLTK to manipulate text data, vectorize it, and run it through statistical models.
