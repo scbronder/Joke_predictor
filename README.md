@@ -18,9 +18,11 @@ Analysis of the jokes revealed several trends that needed to be addressed. First
 Creating dictionaries that contained our stemmed/lemmed words and their word counts we used a count vecotrization to check that our word frequency intuitively made sense
 
 First we converted our text data to a vectorized dataframe:
+
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%201.52.37%20PM.png)
 
 Then performed some manual checks of common words:
+
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%201.53.20%20PM.png)
 
 Following, we performed TF-IDF (term frequency-inverse document frequency). This is based on the idea that rare words contain more information about the content of a document than words that are used many times throughout all the documents. For instance, if we treated every article in a newspaper as a separate document, looking at the amount of times the word "he" or "she" is used probably doesn't tell us much about what that given article is about--however, the amount of times "touchdown" is used can provide good signal that the article is probably about sports. To give you an idea of what this looked like here are the top results from our TF-IDF as per our joke set:
