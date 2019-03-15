@@ -13,4 +13,8 @@ The data processing was set up in a way so that we could go back and alter how w
 
 ![alt text](https://github.com/scbronder/Joke_predictor/blob/master/visuals/Screen%20Shot%202019-03-15%20at%2011.21.49%20AM.png)
 
-Analysis of the jokes revealed several trends
+Analysis of the jokes revealed several trends that needed to be addressed. First, the threshold of what consitututed as a 'funny' joke compared to a 'not funny' joke needed to be determined. To do this we went through several iterations of physically checking batches of jokes. After our best efforts to analyze a joke objectively we determined that if a joke recieved more than 50 votes to consider it funny. We chose this threshold due to the fact that at this level there was an obvious amount of effort that was put in to the joke itself and that there was some degree of consensus (50 people) who all agreed that the joke was indeed funny to some degree. Additionally, we had a very large class imbalance with many jokes being labelled as 'not funny' (ie. below the 50 vote threshold). After a little more anlaysis it was discovered that there was a large number of jokes that had zero votes. Additionally, there were a large number of jokes that received less than 4 votes. After droping those jokes the funny to not funny class imbalance was at an appropriate ratio. 
+
+Creating dictionaries that contained our stemmed/lemmed words and their word counts we used a count vecotrization to check that our word frequency intuitively made sense
+
+![alt text]()
